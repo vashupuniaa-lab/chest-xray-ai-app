@@ -72,7 +72,7 @@ with col1:
 
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded X-Ray Scan", use_column_width=True)
+        st.image(image, caption="Uploaded X-Ray Scan", use_container_width=True)
     else:
         st.info("👆 Upload an X-ray image to perform analysis.")
 
